@@ -15,12 +15,14 @@ class LoginOption extends StatelessWidget {
            Column(children: [
              SizedBox(height: screenHeight * 0.35),
 
-             InitialButton(
-              text: 'Login as broker',
-              onPressed: () {
-                print('Button 23   git a33    pressed!');
-              },
-            ),
+             Center(
+               child: InitialButton(
+                text: 'Login as broker',
+                onPressed: () {
+                  print('Button 23   git a33    pressed!');
+                },
+                           ),
+             ),
              SizedBox(height: screenHeight * 0.05),
 
              InitialButton(

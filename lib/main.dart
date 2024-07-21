@@ -1,10 +1,7 @@
 import 'package:flutter/material.dart';
-
-import 'Presentation/pages/Auth/LoginPage.dart';
 import 'Presentation/pages/Auth/VerificationPage.dart';
-import 'Presentation/pages/LocationPermission.dart';
-import 'Presentation/pages/loginOptions.dart';
-import 'Presentation/pages/splashScreen.dart';
+import 'Presentation/pages/google_map.dart';
+
 
 void main() {
   runApp(const MyApp());
@@ -22,7 +19,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home:  const VerificationPage(),
+      home:  GoogleMapView(),
     );
   }
 }
